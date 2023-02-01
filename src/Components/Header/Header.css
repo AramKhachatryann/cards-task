@@ -3,6 +3,7 @@ header {
     width: 85vw;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
+    display: inline-block;
 }
 
 .headerButtons {

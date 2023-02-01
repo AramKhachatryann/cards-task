@@ -20,7 +20,7 @@ const Main = () => {
                     return (
                         <div key={item.id} className="cardDiv">
                             <span>{item.cardNumber}</span>
-                            <button className="deleteBtn" onClick={() => deleteBtn(item.id)}>X</button>
+                            <button className="deleteBtn" onClick={() => deleteBtn(item.id)}>x</button>
                         </div>
                     )
                 })}

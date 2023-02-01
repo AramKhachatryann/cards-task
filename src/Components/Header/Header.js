@@ -1,12 +1,12 @@
-import { useDispatch, useSelector } from "react-redux"
-import { addCards, cardsSliceSelector, setCards, sortCards } from "../../redux/slices/cardsSlice"
+import { useDispatch} from "react-redux"
+import { addCards, sortCards } from "../../redux/slices/cardsSlice"
 import "./Header.css"
 
 const Header = () => {
     const dispatch = useDispatch()
     
     const addCard = () => {
-        const a = Math.floor((Math.random() * 100) / Math.random())
+        const a = Math.round(Math.round((Math.random() * 1000)) / Math.round(Math.random() + 2))
         const obj = {
             cardNumber: a,
             id: Date.now() + Math.random()
