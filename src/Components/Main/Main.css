@@ -1,35 +1,40 @@
-main{
-    width: 85vw;
-    height: 80vh;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: center;
-    overflow: auto;
+main {
+  width: 85vw;
+  height: 80vh;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
 }
 
-.cardsContainer{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
+.cardsContainer {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.cardDiv{
-    max-width: 40%;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    margin: 10px;
+.cardDiv {
+  max-width: 40%;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
 }
 
-.deleteBtn{
-    background: none;
-    border: none;
-    cursor: pointer;
-    align-self: flex-end;
+.deleteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
