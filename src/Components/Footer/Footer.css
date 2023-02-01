@@ -1,0 +1,6 @@
+footer {
+    width: 85vw;
+    height: 9.8vh;
+    border-right: 1px solid black;
+    display: inline-block;
+}

@@ -1,0 +1,11 @@
+aside {
+    width: 14vw;
+    height: 80vh;
+    font-weight: 800;
+    font-size: 20px;
+    float: right;
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

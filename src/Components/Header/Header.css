@@ -1,0 +1,29 @@
+header {
+    height: 10vh;
+    width: 85vw;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.headerButtons {
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerButtons > button {
+    background: none;
+    width: 6vw;
+    height: 5vh;
+    border: 2px solid blue;
+    color: blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.headerButtons > button:hover {
+    background: blue;
+    color: antiquewhite;
+    cursor: pointer;
+}
